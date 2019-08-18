@@ -3,19 +3,7 @@ import Papa from "papaparse"
 import { range } from "sjb-utils/Arrays"
 import { Random } from "sjb-utils"
 import { Sheet } from "./sheetsApi";
-
-function once(fn, context) { 
-	var result;
-
-	return function() { 
-		if(fn) {
-			result = fn.apply(context || this, arguments);
-			fn = null;
-		}
-
-		return result;
-	};
-}
+import { once } from "sjb-utils/Functions"
 
 const $input = document.getElementById("input");
 const $parsed = document.getElementById("parsed");
