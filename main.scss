@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  margin-top: 20px; 
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0 5px;
+}

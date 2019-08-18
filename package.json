@@ -1,0 +1,20 @@
+{
+  "name": "tdparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spencer Brimley",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "sass": "^1.22.10"
+  },
+  "dependencies": {
+    "papaparse": "^5.0.2",
+    "sjb-utils": "^1.0.5"
+  }
+}
