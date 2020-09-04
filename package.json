@@ -14,7 +14,7 @@
     "sass": "^1.22.10"
   },
   "dependencies": {
-    "papaparse": "^5.0.2",
+    "papaparse": "^5.2.0",
     "sjb-utils": "^1.0.8"
   }
 }
